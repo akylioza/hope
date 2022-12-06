@@ -7,3 +7,12 @@ class ItemFSMAdmin(StatesGroup):
     price = State()
     category = State()
  
+
+class CategoryFSMAdmin(StatesGroup):
+    name = State()
+
+
+class CommentsFSMAdmin(StatesGroup):
+    grade = State()
+    text = State()
+    
